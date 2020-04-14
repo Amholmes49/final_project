@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development ./Iowa_Golf/frontend/src/index.js --output ./Iowa_Golf/frontend/static/frontend/main.js", "build": "webpack --mode production ./Iowa_Golf/frontend/src/index.js --output ./Iowa_Golf/frontend/static/frontend/main.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,10 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
